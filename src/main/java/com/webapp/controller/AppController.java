@@ -11,6 +11,7 @@ public class AppController {
 
     @GetMapping("/test")
     public String test() {
+        logger.info("test sring boot");
         return "Hello, world!";
     }
 }
